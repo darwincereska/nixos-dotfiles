@@ -22,6 +22,7 @@ alias shell="nix-shell -p"
 # EVALS
 eval "$(zoxide init zsh)"
 alias m='micro'
+alias chez='chezmoi'
 eval "$(starship init zsh)"
 alias hm='home-manager'
 alias update="sudo nix-channel --update"
