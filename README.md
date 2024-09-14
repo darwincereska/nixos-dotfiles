@@ -13,7 +13,7 @@
 
 chezmoi cd
     
-git branch -M gnome
+git branch -M {branch name}
 
 ```
 
