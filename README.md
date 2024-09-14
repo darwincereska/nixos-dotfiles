@@ -5,5 +5,7 @@
 - In your home folder run
 ```bash
     chezmoi init git@github.com:darwincereska/nixos-dotfiles.git
+
+    chezmoi update -v
 ```
-and sync your dotfiles with ease
+
