@@ -20,6 +20,7 @@
 		packages = with pkgs; [
 			btop # Monitor
 			htop # Monitor
+			busybox # Bunch of commands
 			armcord # Lighweight Discord Client
 			chezmoi # Dotfiles Manager
 			fzf  # Searches Files
@@ -34,7 +35,6 @@
 			authenticator # Gnome Authenticator
 			neovim # Text Editor
 			spotify # Music Client
-			endeavour # Google Tasks
 			beeper # Chat Client
 			firefox-wayland # Firefox
 			fastfetch  # Neofetch but fast
