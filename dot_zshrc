@@ -1,22 +1,22 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+# HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob
-# End of lines configured by zsh-newuser-install
+
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/darwin/.zshrc'
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-
+# https://docs.google.com/document/u/0/
 # Aliases
 # cat /home/darwin/.cache/wal/sequences
 alias nano="micro"
 alias nixedit="sudo micro /etc/nixos/configuration.nix"
 alias rebuild="sudo nixos-rebuild"
-# . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+
 alias neofetch="fastfetch"
 alias shell="nix-shell -p"
 # EVALS
@@ -25,9 +25,9 @@ alias m='micro'
 alias chez='chezmoi'
 eval "$(starship init zsh)"
 alias hm='home-manager'
-alias update="sudo nix-channel --update"
+alias update="sudo nix-channel --update" 
 
-source $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
+# source $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
 
 # if [ -n ${XDG_SESSION_ID} ];then
 #     xdgpath=$(echo $XDG_DATA_DIRS|sed -e 's#/usr/local/share:##' -e 's#/usr/share:##')

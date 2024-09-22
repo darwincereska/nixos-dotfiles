@@ -19,12 +19,15 @@
 		
 		packages = with pkgs; [
 			btop # Monitor
+			planify # Todo List
 			htop # Monitor
+			todoist-electron
 			busybox # Bunch of commands
 			armcord # Lighweight Discord Client
 			chezmoi # Dotfiles Manager
 			fzf  # Searches Files
-			python3 # Python			
+			python3 # Python
+			warp # File Transfer			
 			dialog
 			libguestfs
 			pywal
