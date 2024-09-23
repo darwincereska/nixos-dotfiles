@@ -22,6 +22,7 @@
 			planify # Todo List
 			htop # Monitor
 			todoist-electron
+			obsidian # Notes
 			busybox # Bunch of commands
 			armcord # Lighweight Discord Client
 			chezmoi # Dotfiles Manager
