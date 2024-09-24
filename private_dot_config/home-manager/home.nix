@@ -23,6 +23,7 @@
 			htop # Monitor
 			todoist-electron
 			obsidian # Notes
+			help2man
 			busybox # Bunch of commands
 			armcord # Lighweight Discord Client
 			chezmoi # Dotfiles Manager
