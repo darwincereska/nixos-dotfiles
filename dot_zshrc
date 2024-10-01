@@ -1,4 +1,5 @@
 # Lines configured by zsh-newuser-install
+cat /home/darwin/.cache/wal/sequences
 # HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -12,7 +13,7 @@ compinit
 # End of lines added by compinstall
 # https://docs.google.com/document/u/0/
 # Aliases
-# cat /home/darwin/.cache/wal/sequences
+
 alias nano="micro"
 alias nixedit="sudo micro /etc/nixos/configuration.nix"
 alias rebuild="sudo nixos-rebuild"
@@ -26,6 +27,7 @@ alias chez='chezmoi'
 eval "$(starship init zsh)"
 alias hm='home-manager'
 alias update="sudo nix-channel --update" 
+alias garbage="sudo nix-collect-garbage -d"
 
 # source $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
 

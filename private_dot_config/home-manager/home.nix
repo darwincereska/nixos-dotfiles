@@ -11,6 +11,10 @@
 	    };
 	  };
 	 };
+
+
+	
+	 
 	
 	home = {
 		username = "darwin";
@@ -19,9 +23,11 @@
 		
 		packages = with pkgs; [
 			btop # Monitor
-			planify # Todo List
+			planify # Todo List # 
+			ptyxis # Terminal
 			htop # Monitor
 			todoist-electron
+			nodejs_22
 			obsidian # Notes
 			help2man
 			busybox # Bunch of commands
